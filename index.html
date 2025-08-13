@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Become a Developer</title>
+</head>
+<body>
+
+    <header>
+        <h1>How to Become a Developer</h1>
+        <p>This page shows the steps, tools, and resources for becoming a developer. It also includes a form for aspiring devs to register for a free learning program.</p>
+    </header>
+
+    <!-- Lists Section -->
+    <section>
+        <h2>Essential Steps</h2>
+        <ol>
+            <li>Learn the basics of programming (HTML, CSS, JavaScript).</li>
+            <li>Practice coding daily to build problem-solving skills.</li>
+            <li>Work on real-world projects to gain experience.</li>
+            <li>Collaborate with other developers and join communities.</li>
+            <li>Keep learning and stay updated with tech trends.</li>
+        </ol>
+
+        <h2>Recommended Tools</h2>
+        <ul>
+            <li>VS Code or any good code editor</li>
+            <li>Git & GitHub for version control</li>
+            <li>Google Chrome Developer Tools</li>
+            <li>Online learning platforms like freeCodeCamp</li>
+        </ul>
+    </section>
+
+    <!-- Table Section -->
+    <section>
+        <h2>Popular Programming Languages</h2>
+        <table border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Main Use</th>
+                    <th>Difficulty Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>Web, AI, Data Science</td>
+                    <td>Easy</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Web Development</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Enterprise Apps, Android</td>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Game Development, Systems</td>
+                    <td>Hard</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Media Section -->
+    <section>
+        <h2>Learning Resources</h2>
+        <figure>
+            <img src="https://via.placeholder.com/300x200" alt="Coding Workspace">
+            <figcaption>A clean and focused workspace is key for learning to code.</figcaption>
+        </figure>
+
+        <h3>Watch: Becoming a Fullstack Developer in 2024</h3>
+        <video width="320" height="240" controls>
+            <source src="dev2024.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h3>Listen: Fullstack dev in 2024</h3>
+        <audio controls>
+            <source src="dev2024.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- HTML5 Form Section -->
+    <section>
+        <h2>Join Our Free Developer Program</h2>
+        <form action="#" method="post" autocomplete="on">
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="0712345678" pattern="[0-9]{4}-[0-9]{6}" required><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Developer Interests</legend>
+                
+                <label for="username">Preferred Username:</label>
+                <input type="text" id="username" name="username" minlength="5" required><br><br>
+
+                <label for="password">Create Password:</label>
+                <input type="password" id="password" name="password" minlength="6" required><br><br>
+
+                <label for="track">Learning Track:</label>
+                <select id="track" name="track" required>
+                    <option value="">Select a track</option>
+                    <option value="web">Web Development</option>
+                    <option value="data">Data Science</option>
+                    <option value="mobile">Mobile Development</option>
+                </select><br><br>
+
+                <label>
+                    <input type="checkbox" name="terms" required>
+                    I agree to the program guidelines
+                </label>
+            </fieldset>
+
+            <br>
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+
+</body>
+</html>
